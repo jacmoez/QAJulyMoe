@@ -39,7 +39,11 @@ Search
      Sleep              2
      ${result}=        Get Text    css:.header-h3-regular.text-white
      Log To Console    ${result}
-     Sleep              5
+     Sleep              2
+        FOR    ${i}    IN RANGE        1            10
+                Click Element    //*[@id="images"]/div[1]/div/div[${i}]
+                Sleep                  3 
+        END
      
     
 
