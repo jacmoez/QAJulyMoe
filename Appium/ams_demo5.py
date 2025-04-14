@@ -149,6 +149,6 @@ def horintal_slider(slider,value):
 
 
 
-#table()
-#role_table()
+table()
+role_table()
 slider()
